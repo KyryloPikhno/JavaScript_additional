@@ -1,0 +1,301 @@
+body{
+    background: rgba(255,185,251,0.49);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.container{
+    width: 100%;
+    /*border: 2px solid black;*/
+    display: flex;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    /*border: 1px solid black;*/
+    /*box-shadow: 1px 1px 1px;*/
+    height: 20%;
+    font-family: 'Fjalla One', sans-serif;
+    /*background: url("https://univerpl.com.ua/wp-content/uploads/2021/04/unnamed-file.jpeg");*/
+    /*color: hotpink;*/
+    background-position-y:-500px;
+
+
+    /*background-size: auto;*/
+    /*background-position-y: inherit;*/
+}
+.fa-plus{
+
+}
+.header h1{
+    font-size: 100px;
+    margin: 2px;
+    /*font-family: "Apple Braille";*/
+}
+
+.header p{
+    font-size: 40px;
+    margin-top: 1%;
+    margin-left:  60%;
+    padding-bottom: 2%;
+}
+
+/*.separate{*/
+/*    width: 80%;*/
+/*    !*height: 1%;*!*/
+/*    border: 1px solid black;*/
+/*}*/
+
+/*.boxImg{*/
+/*    width: 20%;*/
+
+/*    height: 600px;*/
+/*}*/
+
+.imgTania{
+    width: 40%;
+    height: 80%;
+    margin: 0;
+    display: block;
+    /*border: 2px solid black;*/
+}
+
+.box{
+    width: 59%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    gap: 15px;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nameOfCourse{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 30%;
+    background: rgba(255,101,246,0.49);
+    /*margin-top: 50px;*/
+    border-radius: 15px;
+}
+
+
+.boxForInfo{
+    /*margin-top: 30px;*/
+    /*border: 2px solid black;*/
+    display: flex;
+    gap: 10px;
+    /*align-items: center;*/
+    /*margin-bottom: 15px;*/
+}
+
+.boxForInfoHidden,.nameOfCourseHidden{
+    display: none;
+}
+
+
+
+.boxForInfo>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: start;*/
+    color:black;
+    width: 33.33%;
+    height: 350px;
+
+
+    background: rgba(255,101,246,0.49);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.boxForInfo>div:hover{
+    box-shadow: 1px 1px 3px dimgrey;
+    transition: 0.5s;
+}
+
+.boxForInfo>div h2{
+    width: 90%;
+
+}
+
+.boxForInfo div p{
+    padding: 0 10px;
+}
+
+/*.boxForButton{*/
+/*    background: black;*/
+/*    height: 20%;*/
+/*}*/
+
+.button,.buttonInfo{
+    /*margin-top: 40px;*/
+    width: 100%;
+    background: rgba(255,101,246,0.49);
+    border-radius: 10px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.button:hover,.buttonInfo:hover{
+    background: rgba(255,185,251,0.49);
+    transition: 0.5s;
+}
+
+
+.buttonInfo{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*.button::before{*/
+/*    content:'';*/
+/*    position: absolute;*/
+/*    top:0;*/
+/*    left: -200px;*/
+/*    width: 50px;*/
+/*    height: 100%;*/
+/*    background: black;*/
+/*    filter: blur(15px);*/
+/*    transform: skewX(-30deg);*/
+/*    animation: flare-line 3s infinite linear;*/
+/*}*/
+
+/*@keyframes flare-line {*/
+/*    from{*/
+/*        left: -200px;*/
+/*    }*/
+/*    to{*/
+/*        left:150% ;*/
+/*    }*/
+/*}*/
+
+.moreInfo{
+    display: none;
+}
+
+.moreInfoView{
+    margin-top:3% ;
+    margin-bottom:88px;
+    width: 100%;
+    display: block;
+    /*margin: 40px 0;*/
+    background: rgba(255,101,246,0.49);
+    height: 70%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+    /*margin: 40px 0 15px;*/
+}
+
+.moreInfoView p{
+    margin: 20px;
+}
+
+.social{
+    height: 165px;
+    width: 44px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 2%;
+    bottom : 2%;
+    gap:3px;
+}
+
+.social div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a{
+    font-size: 35px ;
+    color: rgba(255,101,246,0.49);
+    transition: 0.3s;
+}
+
+.social a:hover{
+    font-size: 39px ;
+    transition: 0.3s;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (max-width: 1250px){
+    .box{
+        margin-bottom: 80px;
+    }
+
+    .imgTania{
+        margin-top: 40px;
+        background: rgba(255,101,246,0.49);
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .nameOfCourse{
+
+        font-size: 20px;
+        width: 500px;
+    }
+
+    .boxForInfo{
+        flex-direction: column;
+
+    }
+
+    .boxForInfo div{
+        width: 100%;
+    }
+
+    .social{
+        background: rgba(255,101,246,0.49);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        flex-direction: row;
+        height: 70px;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        justify-content: center;
+        gap:20px;
+    }
+
+    .social div{
+        width: 70px;
+        height: 70px;
+        display: flex;
+
+        align-items: center;
+    }
+
+    .social a{
+        font-size: 42px ;
+        color: rgba(255,101,246,0.49);
+        transition: 0.3s;
+        color: black;
+    }
+}
