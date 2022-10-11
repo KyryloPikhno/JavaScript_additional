@@ -37,7 +37,7 @@ boxForInfo.innerHTML=`<div><h2>MINIMAL</h2>
                             <p><i class="fa-solid fa-xmark"></i> Менторська підтримка</p>
                             <p><i class="fa-solid fa-xmark"></i> Пакет з обробки фото та монтажу відео</p>
                             </div>
-                            <button class="buttonInfo" onClick='location.href="https://www.instagram.com/tetiana.popko/?igshid=MTA0ZTI1NzA%3D"' >Замовити</button>
+                            <button class="buttonInfo" onClick='location.href="https://instagram.com/tetyana.popko?igshid=YmMyMTA2M2Y="' >Замовити</button>
                             </div>
 
                             <div><h2>PRO</h2>
@@ -49,7 +49,7 @@ boxForInfo.innerHTML=`<div><h2>MINIMAL</h2>
                             <p><i class="fa-solid fa-check"></i> Менторська підтримка</p>
                             <p><i class="fa-solid fa-xmark"></i> Пакет з обробки фото та монтажу відео</p>
                             </div>
-                            <button class="buttonInfo" onClick='location.href="https://www.instagram.com/tetiana.popko/?igshid=MTA0ZTI1NzA%3D"'>Замовити</button>
+                            <button class="buttonInfo" onClick='location.href="https://instagram.com/tetyana.popko?igshid=YmMyMTA2M2Y="'>Замовити</button>
                             </div>
                             
                              <div><h2>PREMIUM</h2>
@@ -61,26 +61,26 @@ boxForInfo.innerHTML=`<div><h2>MINIMAL</h2>
                             <p><i class="fa-solid fa-check"></i> Менторська підтримка</p>
                             <p><i class="fa-solid fa-check"></i> Пакет з обробки фото та монтажу відео</p>
                             </div>
-                            <button class="buttonInfo" onClick='location.href="https://www.instagram.com/tetiana.popko/?igshid=MTA0ZTI1NzA%3D"'>Замовити</button>
+                            <button class="buttonInfo" onClick='location.href="https://instagram.com/tetyana.popko?igshid=YmMyMTA2M2Y="'>Замовити</button>
                             </div>`
 box.appendChild(boxForInfo)
 
 let moreInfo = document.createElement('div')
 moreInfo.classList.add('moreInfo')
 moreInfo.innerHTML =`<p><i class="fa-solid fa-minus"></i> Професія тележурналіста: роль, функції, місія і зміст ЗМІ.</p>
-<p><i class="fa-solid fa-minus"></i> Процес комунікації та комунікаційні процеси: мова, текст, кадр</p>
+<p><i class="fa-solid fa-minus"></i> Процес комунікації та комунікаційні процеси: мова, текст, кадр.</p>
 <p><i class="fa-solid fa-minus"></i> Жанри і стилі журналістики, їх впровадження і використання. Що таке і як його підготувати: БЗ, сюжет, репортаж, інтерв’ю, бліц, звіт…</p>
-<p><i class="fa-solid fa-minus"></i> Інформаційна і аналітична журналістика. Фільм-портрет</p>
+<p><i class="fa-solid fa-minus"></i> Інформаційна і аналітична журналістика. Фільм-портрет.</p>
 <p><i class="fa-solid fa-minus"></i> Етичні принципи та стандарти журналістики. Як написати інформаційний запит?</p>
-<p><i class="fa-solid fa-minus"></i> Майстерність ведучого: від начитки до кадру</p>
-<p><i class="fa-solid fa-minus"></i> Особливості розмовної мови на ТБ (дикторство)</p>
+<p><i class="fa-solid fa-minus"></i> Майстерність ведучого: від начитки до кадру.</p>
+<p><i class="fa-solid fa-minus"></i> Особливості розмовної мови на ТБ (дикторство).</p>
 <p><i class="fa-solid fa-minus"></i> Ви в кадрі – що далі?</p>
 <p><i class="fa-solid fa-minus"></i> Якщо ти редактор, як будувати ефір?</p>`
 box.appendChild(moreInfo)
 
 let button = document.createElement('button')
 button.classList.add('button')
-button.innerText='Дізнатися більше'
+button.innerText='Деталі курсу'
 box.appendChild(button)
 
 button.onclick = function (){
@@ -89,7 +89,7 @@ button.onclick = function (){
     nameOfCourse.classList.toggle('nameOfCourseHidden')
 
     if(button.dataset.trigger === 'false'){
-        button.innerText = 'Дізнатися більше';
+        button.innerText = 'Деталі курсу';
         button.style.display = 'block';
         button.dataset.trigger = true;
     }else{
