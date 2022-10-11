@@ -94,7 +94,7 @@ button.onclick = function (){
         button.dataset.trigger = true;
     }else{
         button.innerText = button.dataset.text;
-        button.innerText = 'Вибрати курс';
+        button.innerText = 'Обрати курс';
         button.dataset.trigger = false;
     }
 }
