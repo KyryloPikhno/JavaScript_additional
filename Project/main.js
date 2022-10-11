@@ -101,7 +101,7 @@ button.onclick = function (){
 
 let social = document.createElement('div')
 social.classList.add('social')
-social.innerHTML=`<div><a class="fa-brands fa-linkedin" href="https://www.linkedin.com/feed/" target="_blank"></a></div>
+social.innerHTML=`<div><a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/tanya-popko-a1675a246/" target="_blank"></a></div>
                     <div><a class="fa-brands fa-square-instagram" href="https://www.instagram.com/tetiana_popko/" target="_blank"></a></div>
                     <div><a class="fa-brands fa-facebook" target="_blank" href="https://www.facebook.com/taniypopko"></a></div>
                     <div><a class="fa-regular fa-at" target="_blank" href="mailto:taniypopko@ukr.net"></a></div>`
