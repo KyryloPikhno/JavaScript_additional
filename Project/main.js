@@ -1,31 +1,25 @@
-
-
 let header = document.createElement('div')
 header.classList.add('header')
 header.innerHTML =`<h1>The Naked Journalism</h1>
-                    <p>by Tanya Popko</p>
-`
+                    <p>by Tanya Popko</p>`
 document.body.appendChild(header)
-
 
 let container = document.createElement('div')
 container.classList.add('container')
 document.body.appendChild(container)
-
-// let boxImg = document.createElement('div')
-// boxImg.classList.add('boxImg')
-// container.appendChild(boxImg)
 
 let img = document.createElement('img')
 img.src = 'photo/tatiana popko ps.png'
 img.classList.add('imgTania')
 container.appendChild(img)
 
+let hr = document.createElement('hr')
+hr.classList.add('hr')
+header.appendChild(hr)
+
 let box = document.createElement('div')
 box.classList.add('box')
 container.appendChild(box)
-
-
 
 let nameOfCourse = document.createElement('div')
 nameOfCourse.classList.add('nameOfCourse')
@@ -107,13 +101,9 @@ button.onclick = function (){
 
 let social = document.createElement('div')
 social.classList.add('social')
-social.innerHTML=`<div><a class="fa-brands fa-linkedin" href="https://www.linkedin.com/feed/"></a></div>
-                    <div><a class="fa-brands fa-square-instagram"></a></div>
-                    <div><a class="fa-brands fa-facebook"></a></div>
-                    <div><a class="fa-regular fa-at"></a></div>`
+social.innerHTML=`<div><a class="fa-brands fa-linkedin" href="https://www.linkedin.com/feed/" target="_blank"></a></div>
+                    <div><a class="fa-brands fa-square-instagram" href="https://www.instagram.com/tetiana_popko/" target="_blank"></a></div>
+                    <div><a class="fa-brands fa-facebook" target="_blank" href="https://www.facebook.com/taniypopko"></a></div>
+                    <div><a class="fa-regular fa-at" target="_blank" href="mailto:taniypopko@ukr.net"></a></div>`
 document.body.appendChild(social)
 
-
-// let footer = document.createElement('div')
-// footer.classList.add('footer')
-// document.body.appendChild(footer)
