@@ -109,6 +109,14 @@ body{
     transition: 0.5s;
 }
 
+.cross{
+    color: red;
+}
+
+.mark{
+    color: chartreuse;
+}
+
 .boxForInfo>div:hover{
     box-shadow: 1px 1px 3px dimgrey;
     transition: 0.5s;
@@ -135,6 +143,7 @@ body{
     height: 30px;
     transition: 0.5s;
     border: none;
+    color: black;
 }
 
 .button:hover,.buttonInfo:hover{
@@ -145,7 +154,6 @@ body{
 .buttonInfo{
     width: 90%;
     margin: 0 auto;
-
 }
 
 /*.button::before{*/
@@ -249,7 +257,9 @@ body{
 
     .box{
         margin-bottom: 80px;
-        width: 80%;
+        width: 100%;
+
+
     }
 
     .imgTania{
@@ -269,14 +279,12 @@ body{
     }
 
     .nameOfCourse{
-
         font-size: 20px;
-        width:100%;
+        width:95%;
     }
 
     .boxForInfo{
         flex-direction: column;
-
     }
 
     .boxForInfo div{
@@ -313,5 +321,9 @@ body{
     .social a:hover{
         font-size: 42px ;
         transition: 0s;
+    }
+
+    .button{
+        width: 95%;
     }
 }

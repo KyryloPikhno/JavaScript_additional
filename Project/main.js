@@ -30,36 +30,36 @@ let boxForInfo = document.createElement('div')
 boxForInfo.classList.add('boxForInfo')
 boxForInfo.innerHTML=`<div><h2>MINIMAL</h2>
                             <div>
-                            <p><i class="fa-solid fa-check"></i> Смарт-конспект, що включає:</p>
+                            <p><i class="fa-solid fa-check mark"></i> Смарт-конспект, що включає:</p>
                             <p>15 розділів</p>
                             <p>80 тем</p>
-                            <p><i class="fa-solid fa-xmark"></i> 20 онлайн-лекцій</p>
-                            <p><i class="fa-solid fa-xmark"></i> Менторська підтримка</p>
-                            <p><i class="fa-solid fa-xmark"></i> Пакет з обробки фото та монтажу відео</p>
+                            <p><i class="fa-solid fa-xmark cross"></i> 20 онлайн-лекцій</p>
+                            <p><i class="fa-solid fa-xmark cross"></i> Менторська підтримка</p>
+                            <p><i class="fa-solid fa-xmark cross"></i> Пакет з обробки фото та монтажу відео</p>
                             </div>
                             <button class="buttonInfo" onClick='location.href="https://instagram.com/tetyana.popko?igshid=YmMyMTA2M2Y="' >Замовити</button>
                             </div>
 
                             <div><h2>PRO</h2>
                             <div>
-                            <p><i class="fa-solid fa-check"></i> Смарт-конспект, що включає:</p>
+                            <p><i class="fa-solid fa-check mark"></i> Смарт-конспект, що включає:</p>
                             <p>15 розділів</p>
                             <p>80 тем</p>
-                            <p><i class="fa-solid fa-check"></i> 20 онлайн-лекцій</p>
-                            <p><i class="fa-solid fa-check"></i> Менторська підтримка</p>
-                            <p><i class="fa-solid fa-xmark"></i> Пакет з обробки фото та монтажу відео</p>
+                            <p><i class="fa-solid fa-check mark"></i> 20 онлайн-лекцій</p>
+                            <p><i class="fa-solid fa-check mark"></i> Менторська підтримка</p>
+                            <p><i class="fa-solid fa-xmark cross"></i> Пакет з обробки фото та монтажу відео</p>
                             </div>
                             <button class="buttonInfo" onClick='location.href="https://instagram.com/tetyana.popko?igshid=YmMyMTA2M2Y="'>Замовити</button>
                             </div>
                             
                              <div><h2>PREMIUM</h2>
                              <div>
-                            <p><i class="fa-solid fa-check"></i> Смарт-конспект, що включає:</p>
+                            <p><i class="fa-solid fa-check mark"></i> Смарт-конспект, що включає:</p>
                             <p>15 розділів</p>
                             <p>80 тем</p>
-                            <p><i class="fa-solid fa-check"></i> 20 онлайн-лекцій</p>
-                            <p><i class="fa-solid fa-check"></i> Менторська підтримка</p>
-                            <p><i class="fa-solid fa-check"></i> Пакет з обробки фото та монтажу відео</p>
+                            <p><i class="fa-solid fa-check mark"></i> 20 онлайн-лекцій</p>
+                            <p><i class="fa-solid fa-check mark"></i> Менторська підтримка</p>
+                            <p><i class="fa-solid fa-check mark"></i> Пакет з обробки фото та монтажу відео</p>
                             </div>
                             <button class="buttonInfo" onClick='location.href="https://instagram.com/tetyana.popko?igshid=YmMyMTA2M2Y="'>Замовити</button>
                             </div>`
